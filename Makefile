@@ -5,7 +5,9 @@ CXX = g++
 CXXFLAGS = -Wall -std=c++11
 
 
-SOURCES = main.cpp pacman.cpp ghost.cpp painter.cpp point.cpp game_object.cpp map.cpp engine.cpp
+SOURCES = main.cpp pacman.cpp ghost.cpp painter.cpp point.cpp game_object.cpp map.cpp engine.cpp message.cpp
+
+
 OBJECTS = $(SOURCES:.cpp=.o)
 
 

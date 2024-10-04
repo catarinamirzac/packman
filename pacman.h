@@ -4,10 +4,7 @@
 
 class Pacman : public GameObject {
 public:
-    Pacman(int x, int y);
-    void move(char direction); 
-    void eat(); 
-
-private:
-    int score; 
+    Pacman(const Point& position);
+    void move(char direction);
+    void update() override; 
 };
